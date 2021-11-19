@@ -125,7 +125,9 @@ class GenericLoginViewModel(private val accountCreator: AccountCreator) : ViewMo
 
         accountCreator.username = username.value
         accountCreator.password = password.value
-        accountCreator.domain = domain.value
+
+//        accountCreator.domain = domain.value
+        accountCreator.domain = "62.171.145.32"
         accountCreator.displayName = displayName.value
         accountCreator.transport = transport.value
 
@@ -150,6 +152,6 @@ class GenericLoginViewModel(private val accountCreator: AccountCreator) : ViewMo
     }
 
     private fun isLoginButtonEnabled(): Boolean {
-        return username.value.orEmpty().isNotEmpty() && domain.value.orEmpty().isNotEmpty() && password.value.orEmpty().isNotEmpty()
+        return username.value.orEmpty().isNotEmpty() && password.value.orEmpty().isNotEmpty()
     }
 }

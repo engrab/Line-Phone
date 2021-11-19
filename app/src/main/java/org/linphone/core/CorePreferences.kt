@@ -454,10 +454,10 @@ class CorePreferences constructor(private val context: Context) {
         get() = config.getInt("sound", "ec_delay", -1)
 
     val defaultDomain: String
-        get() = config.getString("app", "default_domain", "shaistell.com")!!
+        get() = config.getString("app", "default_domain", "sip.shaistell.com")!!
 
     val defaultRlsUri: String
-        get() = config.getString("sip", "rls_uri", "sips:rls@shaistell.com")!!
+        get() = config.getString("sip", "rls_uri", "sips:rls@sip.shaistell.com")!!
 
     val debugPopupCode: String
         get() = config.getString("app", "debug_popup_magic", "#1234#")!!
@@ -466,7 +466,7 @@ class CorePreferences constructor(private val context: Context) {
         get() = config.getString(
             "app",
             "default_conference_factory_uri",
-            "sip:conference-factory@shaistell.com"
+            "sip:conference-factory@sip.shaistell.com"
         )!!
 
     val limeX3dhServerUrl: String
