@@ -42,7 +42,7 @@
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:text="@string/assistant_generic_account"
-                    android:paddingTop="10dp"
+                    android:paddingTop="5dp"
                     android:textAllCaps="true" />
 
                 <TextView

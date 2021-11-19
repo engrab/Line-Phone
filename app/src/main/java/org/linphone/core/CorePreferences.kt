@@ -2,7 +2,7 @@
  * Copyright (c) 2010-2020 Belledonne Communications SARL.
  *
  * This file is part of linphone-android
- * (see https://www.linphone.org).
+ * (see https://www.shaistell.com).
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -454,10 +454,10 @@ class CorePreferences constructor(private val context: Context) {
         get() = config.getInt("sound", "ec_delay", -1)
 
     val defaultDomain: String
-        get() = config.getString("app", "default_domain", "sip.linphone.org")!!
+        get() = config.getString("app", "default_domain", "shaistell.com")!!
 
     val defaultRlsUri: String
-        get() = config.getString("sip", "rls_uri", "sips:rls@sip.linphone.org")!!
+        get() = config.getString("sip", "rls_uri", "sips:rls@shaistell.com")!!
 
     val debugPopupCode: String
         get() = config.getString("app", "debug_popup_magic", "#1234#")!!

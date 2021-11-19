@@ -28,9 +28,9 @@ host=
 port=443
 
 [misc]
-log_collection_upload_server_url=https://www.linphone.org:444/lft.php
-file_transfer_server_url=https://www.linphone.org:444/lft.php
-version_check_url_root=https://www.linphone.org/releases
+log_collection_upload_server_url=https://www.shaistell.com:444/lft.php
+file_transfer_server_url=https://www.shaistell.com:444/lft.php
+version_check_url_root=https://www.shaistell.com/releases
 max_calls=10
 history_max_size=100
 
