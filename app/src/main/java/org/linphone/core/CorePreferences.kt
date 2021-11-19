@@ -466,7 +466,7 @@ class CorePreferences constructor(private val context: Context) {
         get() = config.getString(
             "app",
             "default_conference_factory_uri",
-            "sip:conference-factory@sip.linphone.org"
+            "sip:conference-factory@shaistell.com"
         )!!
 
     val limeX3dhServerUrl: String
